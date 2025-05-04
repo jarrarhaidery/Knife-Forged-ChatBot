@@ -1,0 +1,58 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.kfv/
+kfv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode settings
+.vscode/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyTorch binaries (large files)
+*.dll
+*.lib
+*.so
+
+# Compiled objects
+*.o
+*.a
+*.out
+*.exe
+
+# Data and logs
+*.log
+*.csv
+*.sqlite3
+*.db
+*.sqlite
+*.pkl
+*.h5
+*.npy
+
+# Model files
+*.pt
+*.onnx
+*.tflite
+*.hdf5
+
+# Local app data
+data/
+__pycache__/
+
+# Git history cleaning (optional backup)
+.git-rewrite/

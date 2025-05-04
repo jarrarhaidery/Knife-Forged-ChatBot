@@ -1,0 +1,16 @@
+# Core Packages
+langchain==0.1.13
+faiss-cpu==1.8.0
+streamlit==1.32.2
+
+# Google Gemini Integration
+langchain-google-genai==0.0.11   # works well with langchain==0.1.13
+google-generativeai==0.4.1       # satisfies langchain-google-genai
+
+# Utilities
+python-dotenv==1.0.1
+requests==2.31.0
+beautifulsoup4==4.12.3
+
+# Alternative embeddings
+sentence-transformers==2.6.1
